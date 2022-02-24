@@ -1,9 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>challenge1</title>
+    <title>Create Your Account</title>
 </head>
 <body>
     <header>
@@ -13,31 +13,31 @@
         <form>
             <div>
                 <label for="first-name">First name</label>
-                <input id="first-name" required placeholder="First name" type="text">
+                <input id="first-name" type="text" placeholder="First name" required>
             </div>
             <div>
                 <label for="last-name">Last name</label>
-                <input id="last-name" required placeholder="Last name" type="text">
+                <input id="last-name" type="text" placeholder="Last name" required>
             </div>
             <div>
                 <label for="Email">Email</label>
-                <input id="Email" required placeholder="Email" type="email">
+                <input id="Email" type="email" placeholder="Email" required>
             </div>
             <div>
                 <label for="username">Username</label>
-                <input id="username" required placeholder="Username" type="text">
+                <input id="username" type="text" placeholder="Username" required>
             </div>
             <div>
                 <label for="password">Password</label>
-                <input id="password" required placeholder="Password" minlength="10" type="password">
+                <input id="password" type="password" placeholder="Password" minlength="10"  required>
             </div>
             <div>
                 <label for="birthdate">Birth date</label>
-                <input id="birthdate" required value="yyyy/mm/dd" type="date">
+                <input id="birthdate" type="date" required>
             </div>
             <div>
-                <label for="feeling">How happy are you?</label>
-                <input id="feeling" required type="range" list="tickmarks">
+                <label for="happy">How happy are you?</label>
+                <input id="happy" type="range" list="tickmarks">
                 <datalist id="tickmarks">
                     <option value="0"></option>
                     <option value="10"></option>
@@ -54,10 +54,10 @@
             </div>
             <div>
                 <label for="color">What is your favorite color?</label>
-                <input id="color" required type="color">
+                <input id="color" type="color">
             </div>
             <div>
-                <input type="submit" value="Create Account">
+                <input type="submit" value="Create account">
             </div>
         </form>
     </main>
