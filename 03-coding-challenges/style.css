@@ -24,23 +24,23 @@ section {
     margin-bottom: 20px;
 }
 
-    .color:first-child .color__bg {
+    .color:first-child .color__box {
         background-color: tomato;
     }
 
-    .color:nth-child(2) .color__bg {
+    .color:nth-child(2) .color__box {
         background-color: teal;
     }
 
-    .color:nth-child(3) .color__bg {
+    .color:nth-child(3) .color__box {
         background-color: burlywood;
     }
 
-    .color:last-child .color__bg {
+    .color:last-child .color__box {
         background-color: thistle;
     }
 
-.color__bg {
+.color__box {
     height: 300px;
     border: 5px solid white;
 }
