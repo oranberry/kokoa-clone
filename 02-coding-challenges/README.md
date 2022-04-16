@@ -1,1 +1,0 @@
-![kokoa-challenge2](https://user-images.githubusercontent.com/72768159/155642509-5cc34cf1-95de-4d8b-b16f-ce225cbdbd3a.png)
